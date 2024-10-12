@@ -2,13 +2,11 @@ class Hewan {
     private String nama;
     private int umur;
 
-    // Constructor
     public Hewan(String nama, int umur) {
         this.nama = nama;
         this.umur = umur;
     }
 
-    // Getter dan Setter
     public String getNama() {
         return nama;
     }
@@ -25,7 +23,6 @@ class Hewan {
         this.umur = umur;
     }
 
-    // Metode untuk menampilkan suara hewan
     public void suara() {
         System.out.println("Suara hewan");
     }
