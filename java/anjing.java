@@ -1,12 +1,11 @@
-class anjing extends Hewan {
+class Anjing extends Hewan {
     
-    public anjing(String nama, int umur) {
+    public Anjing(String nama, int umur) {
         super(nama, umur);
     }
 
-    // Overriding metode suara
     @Override
     public void suara() {
-        System.out.println(getNama() + " berkata: guk!");
-    }
+        System.out.println(getNama() + " berkata: Guk!");
+    }
 }
