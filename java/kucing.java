@@ -1,6 +1,6 @@
-class kucing extends Hewan {
+class Kucing extends Hewan {
     
-    public kucing(String nama, int umur) {
+    public Kucing(String nama, int umur) {
         super(nama, umur);
     }
 
@@ -8,5 +8,5 @@ class kucing extends Hewan {
     @Override
     public void suara() {
         System.out.println(getNama() + " berkata: Meow!");
-    }
+    }
 }
