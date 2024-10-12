@@ -7,6 +7,6 @@ class burung extends Hewan {
     // Overriding metode suara
     @Override
     public void suara() {
-        System.out.println(getNama() + " berkata: Meow!");
+        System.out.println(getNama() + " berkata: berkicau!");
     }
 }
