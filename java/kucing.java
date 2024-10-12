@@ -4,7 +4,6 @@ class Kucing extends Hewan {
         super(nama, umur);
     }
 
-    // Overriding metode suara
     @Override
     public void suara() {
         System.out.println(getNama() + " berkata: Meow!");
